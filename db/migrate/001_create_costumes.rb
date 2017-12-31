@@ -9,6 +9,7 @@ class CreateCostumes < ActiveRecord::Migration
       t.integer :size
       t.timestamps
   end
+end
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
 # 002_create_costumes.rb becomes class CreateCostumes
